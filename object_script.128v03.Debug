@@ -1,0 +1,17 @@
+INPUT(
+./debug\login.o
+./debug\main_interface.o
+./debug\parking.o
+./debug\register_user.o
+./debug\reservation.o
+./debug\status.o
+./debug\summary.o
+./debug\qrc_resource.o
+./debug\moc_login.o
+./debug\moc_main_interface.o
+./debug\moc_parking.o
+./debug\moc_register_user.o
+./debug\moc_reservation.o
+./debug\moc_status.o
+./debug\moc_summary.o
+);

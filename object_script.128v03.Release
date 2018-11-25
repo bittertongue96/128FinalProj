@@ -1,0 +1,17 @@
+INPUT(
+./release\login.o
+./release\main_interface.o
+./release\parking.o
+./release\register_user.o
+./release\reservation.o
+./release\status.o
+./release\summary.o
+./release\qrc_resource.o
+./release\moc_login.o
+./release\moc_main_interface.o
+./release\moc_parking.o
+./release\moc_register_user.o
+./release\moc_reservation.o
+./release\moc_status.o
+./release\moc_summary.o
+);

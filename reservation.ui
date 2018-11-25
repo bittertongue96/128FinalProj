@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Reservation</class>
+ <widget class="QDialog" name="Reservation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/images/blak.jpg);</string>
+  </property>
+  <widget class="QLabel" name="label_reserve">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Status +-</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/images/whiteyellow.png);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_2">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/images/whiteyellow.png);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>28</red>
+            <green>167</green>
+            <blue>3</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="HighlightedText">
+          <brush brushstyle="LinearGradientPattern">
+           <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+            <gradientstop position="0.000000000000000">
+             <color alpha="255">
+              <red>255</red>
+              <green>178</green>
+              <blue>102</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="0.550000000000000">
+             <color alpha="255">
+              <red>235</red>
+              <green>148</green>
+              <blue>61</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="0.980000000000000">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="1.000000000000000">
+             <color alpha="0">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </gradientstop>
+           </gradient>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>28</red>
+            <green>167</green>
+            <blue>3</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="HighlightedText">
+          <brush brushstyle="LinearGradientPattern">
+           <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+            <gradientstop position="0.000000000000000">
+             <color alpha="255">
+              <red>255</red>
+              <green>178</green>
+              <blue>102</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="0.550000000000000">
+             <color alpha="255">
+              <red>235</red>
+              <green>148</green>
+              <blue>61</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="0.980000000000000">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="1.000000000000000">
+             <color alpha="0">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </gradientstop>
+           </gradient>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="HighlightedText">
+          <brush brushstyle="LinearGradientPattern">
+           <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+            <gradientstop position="0.000000000000000">
+             <color alpha="255">
+              <red>255</red>
+              <green>178</green>
+              <blue>102</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="0.550000000000000">
+             <color alpha="255">
+              <red>235</red>
+              <green>148</green>
+              <blue>61</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="0.980000000000000">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </gradientstop>
+            <gradientstop position="1.000000000000000">
+             <color alpha="0">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </gradientstop>
+           </gradient>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <family>Rockwell Extra Bold</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">selection-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+      </property>
+      <property name="text">
+       <string>CANCEL</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>18</red>
+            <green>129</green>
+            <blue>1</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>28</red>
+            <green>167</green>
+            <blue>3</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>18</red>
+            <green>129</green>
+            <blue>1</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>28</red>
+            <green>167</green>
+            <blue>3</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <family>Rockwell Extra Bold</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>GO</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>label_reserve</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

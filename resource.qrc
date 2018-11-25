@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/login_background2.png</file>
+        <file>images/bg.jpg</file>
+        <file>images/register.png</file>
+        <file>images/signup.png</file>
+        <file>images/sign.png</file>
+        <file>images/page1 button.png</file>
+        <file>images/typein_color.jpg</file>
+        <file>images/status_background.png</file>
+        <file>images/2.png</file>
+        <file>images/user and ass.png</file>
+        <file>images/pass.png</file>
+        <file>images/other_backgrounds.png</file>
+        <file>images/anon.png</file>
+        <file>images/park_button.png</file>
+        <file>images/v2.png</file>
+        <file>images/v22.png</file>
+        <file>images/status.png</file>
+        <file>images/loginlight.png</file>
+        <file>images/b2.png</file>
+        <file>images/background4.jpg</file>
+        <file>images/blak.jpg</file>
+        <file>images/white.png</file>
+        <file>images/STATAS.png</file>
+        <file>images/usernameradsdas.png</file>
+        <file>images/username_back.png</file>
+        <file>images/backgroundagain.jpg</file>
+        <file>images/another.png</file>
+        <file>images/whiteyellow.png</file>
+        <file>images/buttoner.png</file>
+        <file>images/reg.png</file>
+        <file>images/dudu.png</file>
+        <file>images/dudu2.png</file>
+        <file>images/cancel.jpg</file>
+        <file>images/iconclose.png</file>
+    </qresource>
+</RCC>
